@@ -3,85 +3,52 @@ $( document ).ready(function() {
 
     var cards=[
     {id:0,
-     question:'././images/4сезона1.png',
-     answer:'././images/4сезона.png'},
+     question:'././images/Блин с твор соус и икрой1.png',
+     answer:'././images/Блин с твор соус и икрой.png'},
     
     {id:1,
-     question:'././images/5сыров1.png',
-     answer:'././images/5сыров.png'},
+     question:'././images/Драники верещака1.png',
+     answer:'././images/Драники верещака.png'},
     
     {id:2,
-     question:'././images/баварская1.png',
-     answer:'././images/баварская.png'},
+     question:'././images/драники с беки сыр1.png',
+     answer:'././images/драники с беки сыр.png'},
     
     {id:3,
-     question:'././images/Барбекю1.png',
-     answer:'././images/Барбекю.png'},
+     question:'././images/драники с дом колб1.png',
+     answer:'././images/драники с дом колб.png'},
     
     {id:4,
-     question:'././/images/вегетарианская1.png',
-     answer:'././images/вегетарианская.png'},
+     question:'././/images/драники с копч лососем1.png',
+     answer:'././images/драники с копч лососем.png'},
     {id:5,
-     question:'././images/ветчина и грибы1.png',
-     answer:'././images/ветчина и грибы.png'},
+     question:'././images/драники с мачанкой1.png',
+     answer:'././images/драники с мачанкой.png'},
     
     {id:6,
-     question:'././images/Гавайская1.png',
-     answer:'././images/Гавайская.png'},
+     question:'././images/драники со слоб сол лос1.png',
+     answer:'././images/драники со слоб сол лос.png'},
     
     {id:7,
-     question:'././images/грибная1.png',
-     answer:'././images/грибная.png'},
+     question:'././images/драники со сметаной1.png',
+     answer:'././images/драники со сметаной.png'},
     
     {id:8,
-     question:'././images/дьябло1.png',
-     answer:'././images/дьябло.png'},
+     question:'././images/запеченые блины1.png',
+     answer:'././images/запеченые блины.png'},
     
      {id:9,
-     question:'././images/маргарита1.png',
-     answer:'././images/маргарита.png'},
+     question:'././images/налистники с вареньем1.png',
+     answer:'././images/налистники с вареньем.png'},
     
     {id:10,
-     question:'././images/мясная1.png',
-     answer:'././images/мясная.png'},
+     question:'././images/налистники с мочанкой1.png',
+     answer:'././images/налистники с мочанкой.png'},
     
     {id:11,
-     question:'././images/немецкая1.png',
-     answer:'././images/немецкая.png'},
+     question:'././images/рулька с кортоф и яйцом1.png',
+     answer:'././images/рулька с кортоф и яйцом.png'},
     
-    {id:12,
-     question:'././images/охотничья1.png',
-     answer:'././images/охотничья.png'},
-    
-    {id:13,
-     question:'././images/пепперони1.png',
-     answer:'././images/пепперони.png'},
-    
-    {id:14,
-     question:'././images/ростбиф и цукини1.png',
-     answer:'././images/ростбиф и цукини.png'},
-
-    {id:15,
-        question:'././images/спайси1.png',
-        answer:'././images/спайси.png'},
-    {id:16,
-        question:'././images/том ям1.png',
-        answer:'././images/том ям.png'},
-    {id:17,
-        question:'././images/форель и авокадо1.png',
-        answer:'././images/форель и авокадо.png'},
-    {id:18,
-        question:'././images/цезарь1.png',
-        answer:'././images/цезарь.png'},
-    {id:19,
-        question:'././images/цыпленок с бататом1.png',
-        answer:'././images/цыпленок с бататом.png'},
-    {id:20,
-        question:'././images/чизбургер1.png',
-        answer:'././images/чизбургер.png'},
-    {id:21,
-        question:'././images/шеф-пицца1.png',
-        answer:'././images/шеф-пицца.png'},
     ];
     /*for (var i=0;i<cards.length;i++) {
     var randomcard = Math.floor(Math.random() * cards.id);
@@ -91,7 +58,7 @@ $( document ).ready(function() {
     
     
     var ran;
-    ran= Math.round(Math.random()*20);
+    ran= Math.round(Math.random()*12);
     /*var blindcard=cards[20].question;
         var el=document.getElementById('card');
         //el[0].classList.add('img-responsive');//+=' flashtext';
@@ -106,7 +73,7 @@ $( document ).ready(function() {
     
     $('#question').on('click',function(){
     
-        ran= Math.round(Math.random()*20);
+        ran= Math.round(Math.random()*12);
     
         //console.log(ran);
         
